@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Микросервис API</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="public/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h2>Микросервис Api</h2>
+  <div class="note">
+    <p><b>Примечание:</b> Заголовок HTTP-запроса - это информация в виде текстовой записи, которую браузер пользователя отправляет на веб-сервер
+содержащий подробную информацию о том, что браузер хочет и будет принимать обратно с сервера.
+Заголовок запроса также содержит тип, версию и возможности браузера, который выполняет запрос, чтобы сервер возвращал
+совместимые данные.
+
+После получения заголовка запроса сервер вернет подключенному клиенту заголовок HTTP-ответа
+к отправляемым файлам.</p>
+    </div>
+    <div class="container">
+
+    <h3>Пример Использования:</h3>
+    <p>
+      <a href="api/Кто?">[base url]/api/KTO?</a>
+    </p>
+
+    <h3>Пример Вывода:</h3>
+    <p>
+      <code>{"ipaddress":"::3000:127.0.0.1","language":"ru-RU,ru;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Firefox/50.0"}</code>
+    </p>
+  </div>
+  <div class="footer">
+    <p>
+      by <a href="https://github.com/DmitryPimenov">DmitryPimenov</a>
+    </p>
+  </div>
+</body>
+
+
+</html>
